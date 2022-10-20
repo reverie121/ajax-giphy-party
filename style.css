@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: beige;
+}
+
+button {
+    border-radius: 5px;
+    background-color: beige;
+    color: darkslategray;
+}
+
+input[type=text] {
+    background-color: beige;
+    color: darkslategray;
+}
+
+#container {
+    width: 80%;
+    height: 90%;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+#display {
+    width: 90%;
+    margin-top: 1rem;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: top;
+}
+
+.imgContainer {
+    width: 48%;
+    margin: 1% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+}
